@@ -58,9 +58,9 @@ WSGI_APPLICATION = 'googlemaps.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'geodatabase',
-        'USER': 'geouser',
-        'PASSWORD': 'geopassword',
+        'NAME': 'mydb',
+        'USER': 'postgres',
+        'PASSWORD': 'abhishek123',
     }
 }
 
